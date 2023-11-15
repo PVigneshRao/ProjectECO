@@ -9,8 +9,9 @@
 
 body{
   background: #23bf88;  
-  background: -webkit-linear-gradient(to right, #373e24, #2b6337, #11290c); 
-  background: linear-gradient(to right, #243e2d, #2b634d, #4b9e56);
+  background: -webkit-linear-gradient(to right, #373e24, #2b6337, #11290c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243e2d, #2b634d, #4b9e56); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .App {
@@ -20,26 +21,18 @@ body{
   align-items: center;
   text-align: center;
 }
-.App-logo{
-  object-fit: contain;
-  aspect-ratio: 4/3;
-}
- .App-logo {
-  height: 4vmin;
+
+.App-logo {
+  height: 40vmin;
   pointer-events: none;
-} 
+}
 .register{
   width: 1000px;
   display:flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #e9ecef;
   border-radius: 120px;
   box-shadow: 1px 3px 10px #23bf88; 
   background-color: rgb(255, 253, 253);
-  position: relative;
-  left: 250px ;
-  top:  150px;
 }
 
 
@@ -119,6 +112,7 @@ body{
     display: initial;
   }
 }
+
 
 
 
